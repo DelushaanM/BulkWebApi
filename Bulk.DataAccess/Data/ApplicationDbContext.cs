@@ -1,7 +1,7 @@
-﻿using BulkWebApi.Models;
+﻿using Bulk.Model.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BulkWebApi.Data
+namespace Bulk.DataAccess.Data
 {
     public class ApplicationDbContext : DbContext
     {

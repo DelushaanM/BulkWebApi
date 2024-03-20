@@ -1,4 +1,4 @@
-namespace BulkWebApi.Models
+namespace Bulk.Model.Models
 {
     public class ErrorViewModel
     {

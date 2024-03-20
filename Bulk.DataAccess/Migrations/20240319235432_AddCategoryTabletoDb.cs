@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace BulkWebApi.Migrations
+namespace Bulk.DataAccess.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryTabletoDb : Migration

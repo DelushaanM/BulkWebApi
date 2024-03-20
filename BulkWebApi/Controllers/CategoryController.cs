@@ -1,5 +1,5 @@
-﻿using BulkWebApi.Data;
-using BulkWebApi.Models;
+﻿using Bulk.DataAccess.Data;
+using Bulk.Model.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BulkWebApi.Controllers

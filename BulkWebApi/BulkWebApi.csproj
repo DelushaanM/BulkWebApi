@@ -16,4 +16,9 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Bulk.DataAccess\Bulk.DataAccess.csproj" />
+    <ProjectReference Include="..\Bulk.Model\Bulk.Model.csproj" />
+  </ItemGroup>
+
 </Project>
