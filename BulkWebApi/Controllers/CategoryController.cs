@@ -34,6 +34,7 @@ namespace BulkWebApi.Controllers
             {
                 _db.Categories.Add(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Cateogry Created Succssfully";
                 return RedirectToAction("Index", "Category");
             }
 
@@ -63,6 +64,7 @@ namespace BulkWebApi.Controllers
             {
                 _db.Categories.Update(obj);
                 _db.SaveChanges();
+                TempData["success"] = "Cateogry Updated Succssfully";
                 return RedirectToAction("Index", "Category");
             }
 
@@ -96,6 +98,7 @@ namespace BulkWebApi.Controllers
             }
             _db.Categories.Remove(obj);
             _db.SaveChanges();
+            TempData["success"] = "Cateogry Deleted Succssfully";
             return RedirectToAction("Index", "Category");
         }
     }
